@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мыфыный сайт</title>
+    <link rel="stylesheet" href="site_styles.css">
+</head>
+<body>
+    <header>
+        <h1>Мыфыный сайтик</h1>
+        <nav>
+            <button class="tab-button active" data-tab="restaurant">Ресторан</button>
+            <button class="tab-button" data-tab="leisure">Развлечения</button>
+            <button class="tab-button" data-tab="cart">Корзина</button>
+            <button class="tab-button" data-tab="checkout">Оформление заказа</button>
+        </nav>
+    </header>
+    <main>
+        <section id="restaurant" class="tab-content active">
+            <h2>Меню ресторана</h2>
+            <nav class="sub-tabs">
+                <button class="sub-tab-button active" data-sub-tab="breakfast">Завтрак</button>
+                <button class="sub-tab-button" data-sub-tab="lunch">Обед</button>
+                <button class="sub-tab-button" data-sub-tab="dinner">Ужин</button>
+            </nav>
+            <div id="breakfast" class="sub-tab-content active">
+                <div class="product">
+                    <h4>Яичница Шакшука</h4>
+                    <p>Цена: 1 руб.</p>
+                    <button class="add-to-cart" data-name="Яичница Шакшука" data-price="1">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Яичнца Scrambled</h4>
+                    <p>Цена: 1 руб.</p>
+                    <button class="add-to-cart" data-name="Яичница Scrambled" data-price="1">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Сендвич с красной рыбой</h4>
+                    <p>Цена: 1 руб.</p>
+                    <button class="add-to-cart" data-name="Сендвич с красной рыбой" data-price="1">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Сендвич с кабаськой</h4>
+                    <p>Цена: 1 руб.</p>
+                    <button class="add-to-cart" data-name="Сендвич с кабаськой" data-price="1">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Кофэ</h4>
+                    <p>Цена: 1 руб.</p>
+                    <button class="add-to-cart" data-name="Кофэ" data-price="1">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Чаёк</h4>
+                    <p>Цена: 1 руб.</p>
+                    <button class="add-to-cart" data-name="Чаёк" data-price="1">Добавить в корзину</button>
+                </div>
+            </div>
+            <div id="lunch" class="sub-tab-content">
+                <div class="product">
+                    <h4>Суп гороховый</h4>
+                    <p>Цена: 2 руб.</p>
+                    <button class="add-to-cart" data-name="Суп грибной" data-price="2">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Томатный крем-суп</h4>
+                    <p>Цена: 2 руб.</p>
+                    <button class="add-to-cart" data-name="Томатный крем-суп" data-price="2">Добавить в корзину</button>
+                </div>
+            </div>
+            <div id="dinner" class="sub-tab-content">
+                <div class="product">
+                    <h4>Салат цезарь</h4>
+                    <p>Цена: 3 руб.</p>
+                    <button class="add-to-cart" data-name="Салат Цезарь" data-price="3">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Салат Греческий</h4>
+                    <p>Цена: 3 руб.</p>
+                    <button class="add-to-cart" data-name="Салат Греческий" data-price="3">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Котлеты в томатном соусе с гарниром</h4>
+                    <p>Цена: 3 руб.</p>
+                    <button class="add-to-cart" data-name="Котлеты в томатном соусе с гарниром" data-price="3">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Паста</h4>
+                    <p>Цена: 3 руб.</p>
+                    <button class="add-to-cart" data-name="Паста" data-price="3">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Мясо по Французски</h4>
+                    <p>Цена: 3 руб.</p>
+                    <button class="add-to-cart" data-name="Мясо по Французски" data-price="3">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Пюреха</h4>
+                    <p>Цена: 3 руб.</p>
+                    <button class="add-to-cart" data-name="Пюреха" data-price="3">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Гречка</h4>
+                    <p>Цена: 3 руб.</p>
+                    <button class="add-to-cart" data-name="Гречка" data-price="3">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Рис</h4>
+                    <p>Цена: 3 руб.</p>
+                    <button class="add-to-cart" data-name="Рис" data-price="3">Добавить в корзину</button>
+                </div>
+                <div class="product">
+                    <h4>Макарохи</h4>
+                    <p>Цена: 3 руб.</p>
+                    <button class="add-to-cart" data-name="Макарохи" data-price="3">Добавить в корзину</button>
+                </div>
+            </div>
+        </section>
+        <section id="leisure" class="tab-content">
+            <h2>Развлечения</h2>
+            <div class="product">
+                <h3>Мыфыность</h3>
+                <p>Цена: 4 руб.</p>
+                <button class="add-to-cart" data-name="Мыфыность" data-price="4">Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <h3>Прогулка</h3>
+                <p>Цена: 4 руб.</p>
+                <button class="add-to-cart" data-name="Прогулка" data-price="4">Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <h3>Просмотр фильмов(рилс и т.д)</h3>
+                <p>Цена: 4 руб.</p>
+                <button class="add-to-cart" data-name="Просмотр фильмов(рилс и т.д)" data-price="4">Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <h3>ШРЕКС</h3>
+                <p>Цена: 4 руб.</p>
+                <button class="add-to-cart" data-name="ШРЕКС" data-price="4">Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <h3>Сон</h3>
+                <p>Цена: 4 руб.</p>
+                <button class="add-to-cart" data-name="Сон" data-price="4">Добавить в корзину</button>
+            </div>
+        </section>
+        <section id="cart" class="tab-content">
+            <h2>Корзина</h2>
+                <div id="cart-items">
+                    <p>Корзина пуста.</p>
+                </div>
+        </section>
+        <section id="checkout" class="tab-content">
+            <h2>Оформление заказа</h2>
+                <form id="order-form">
+                    <input type="text" id="name" placeholder="Ваше имя" required>
+                    <input type="email" id="email" placeholder="Ваш email" required>
+                    <input type="tel" id="phone" placeholder="Ваш телефон" required>
+                    <button type="submit">Оформить заказ</button>
+                </form>
+            </section>
+            
+    </main>
+    <script src="site_script.js"></script>
+</body>
+</html>
